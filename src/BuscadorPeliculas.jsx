@@ -2,7 +2,7 @@ import {React , useState} from 'react'
 
 export const BuscaorPeliculas = () => {
  const urlBase = 'https://api.themoviedb.org/3/search/movie'
- const API_KEY = '767c98afa5fa5c6a178d13576921b243'
+ const API_KEY = 'API_KEY'
 const [busqueda, setBusqueda] = useState('')
 const [peliculas, setPeliculas] = useState([])
 
